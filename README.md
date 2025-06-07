@@ -3,7 +3,6 @@
 A full-stack **Attendance Management System** designed to help faculty track and manage student attendance efficiently.  
 This project was built as part of my learning journey into full-stack development and includes core functionality like **student listing**, **attendance marking**, and **graphical analysis** — with some features still under development.
 
-![Thumbnail](./assets/attendance-thumbnail.png) <!-- Replace with actual image path -->
 
 ---
 
