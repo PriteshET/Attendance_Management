@@ -76,7 +76,7 @@ npm run dev
 
 ### 4. Run Backend
 ```bash
-- npm run db:studio
+npm run db:studio
 ```
 
 ---
