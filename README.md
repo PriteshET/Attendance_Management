@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧑‍🏫 Attendance Management System for Faculty
 
-## Getting Started
+A full-stack **Attendance Management System** designed to help faculty track and manage student attendance efficiently.  
+This project was built as part of my learning journey into full-stack development and includes core functionality like **student listing**, **attendance marking**, and **graphical analysis** — with some features still under development.
 
-First, run the development server:
+![Thumbnail](./assets/attendance-thumbnail.png) <!-- Replace with actual image path -->
 
+---
+
+## 🚀 Features
+
+- 📋 **Student Listing Page**  
+  - Displays all students with department, year, and ID
+  - Options to **add** and **delete** students
+
+- ✅ **Attendance Marking Page**  
+  - Choose subject & year
+  - Mark attendance via **checkbox UI**
+  - Displays visual summary via **charts**
+
+- 📊 **Analytics Page**  
+  - Select Year → View **present vs absent ratio** in graph form
+
+- 🔐 **Authentication**  
+  - Integrated via **Kinde App** for secure access
+
+- 🗃️ **Database**  
+  - SQL database powered by **Drizzle ORM Studio**
+
+---
+
+## ⚠️ Project Status
+
+> This was an early-stage learning project and includes a few **unfinished elements** and **UI glitches**:
+- 🚧 *Settings page not implemented*
+- 🧪 *Minor layout issues on attendance view*
+- 🔍 *Code not fully optimized for production*
+
+Despite that, it demonstrates core full-stack development concepts and backend integration.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category         | Tech Used                                     |
+|------------------|-----------------------------------------------|
+| **Frontend**     | React + Vite                                  |
+| **Auth**         | Kinde App                                     |
+| **Database**     | SQL (via Drizzle ORM Studio)                  |
+| **Backend/API**  | Axios + NodeJS                                |
+
+
+---
+
+
+## 🧪 Getting Started
+
+### 1. Setup Environment
+Edit a .env.local file and add your Kinde App credentials:
+
+- KINDE_CLIENT_ID=xxx
+- KINDE_CLIENT_SECRET=xxx
+
+### 2. Run Frontend
 ```bash
+git clone https://github.com/your-username/attendance-management.git
+cd attendance-management
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Start Server using XAMPP app
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Start Apache
+- Start Sql
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### 4. Run Backend
+```bash
+- npm run db:studio
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[@PriteshET](https://github.com/PriteshET)
