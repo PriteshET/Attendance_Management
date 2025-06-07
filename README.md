@@ -84,3 +84,19 @@ npm run db:studio
 ## Author
 
 [@PriteshET](https://github.com/PriteshET)
+
+
+---
+
+
+
+## 📃 License
+This project is open-source and available under the MIT License.
+
+
+---
+
+
+## 🙏 Acknowledgement
+This project was part of my full-stack development learning journey.
+Special thanks to Kinde for providing easy auth integration and to Drizzle ORM for simplifying SQL data handling.
