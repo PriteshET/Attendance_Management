@@ -55,7 +55,7 @@ Despite that, it demonstrates core full-stack development concepts and backend i
 ## 🧪 Getting Started
 
 ### 1. Setup Environment
-Edit a .env.local file and add your Kinde App credentials:
+Create a .env.local file and add your Kinde App credentials:
 
 - KINDE_CLIENT_ID=xxx
 - KINDE_CLIENT_SECRET=xxx
